@@ -1,7 +1,7 @@
 {
- "id": "bankofhodlers/model-finetuning-v2",
- "title": "Automated Model Training",
- "code_file": "notebook.ipynb",
+ "id": "yourusername/automated-model-training",
+ "title": "automated-model-training",
+ "code_file": "train.ipynb",
  "language": "python",
  "kernel_type": "notebook",
  "accelerator": "gpu",
