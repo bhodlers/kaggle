@@ -1,5 +1,5 @@
 {
- "id": "bankofhodlers/layoutllmv3training",
+ "id": "bankofhodlers/model-finetuning-v2",
  "title": "Automated Model Training",
  "code_file": "notebook.ipynb",
  "language": "python",
