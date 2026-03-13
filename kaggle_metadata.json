@@ -1,0 +1,10 @@
+{
+ "id": "bankofhodlers/model-training",
+ "title": "Automated Model Training",
+ "code_file": "notebook.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "accelerator": "gpu",
+ "enable_gpu": true,
+ "enable_internet": true
+}
