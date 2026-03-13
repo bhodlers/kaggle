@@ -1,0 +1,28 @@
+name: Train Model on Kaggle
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install Kaggle CLI
+        run: pip install kaggle
+
+      - name: Setup Kaggle API
+        run: |
+          mkdir ~/.kaggle
+          echo '${{ secrets.KAGGLE_JSON }}' > ~/.kaggle/kaggle.json
+          chmod 600 ~/.kaggle/kaggle.json
+
+      - name: Push notebook to Kaggle
+        run: kaggle kernels push -p .
