@@ -1,7 +1,7 @@
 {
  "id": "yourusername/automated-model-training",
  "title": "automated-model-training",
- "code_file": "train.ipynb",
+ "code_file": "notebook.ipynb",
  "language": "python",
  "kernel_type": "notebook",
  "accelerator": "gpu",
