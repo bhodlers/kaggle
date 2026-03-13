@@ -1,5 +1,5 @@
 {
- "id": "bankofhodlers/model-training",
+ "id": "bankofhodlers/layoutllmv3-training",
  "title": "Automated Model Training",
  "code_file": "notebook.ipynb",
  "language": "python",
